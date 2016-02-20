@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/detail_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:gravity="center"
+        />
+    <!---movie title-->
+    <TextView
+        android:id="@+id/detail_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tessss"
+        android:textSize="17dp" />
+    <!--rate-->
+    <TextView
+        android:id="@+id/detail_kegiatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detail_judul"
+        android:text="tes"
+        android:textSize="15dp" />
+    <!--genre-->
+    <TextView
+        android:id="@+id/detail_tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detail_kegiatan"
+        android:text="tes"
+        android:textSize="13dp" />
+    <!--year-->
+    <TextView
+        android:id="@+id/jam_mulai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detail_tanggal"
+        android:text="tes"
+        android:textSize="12dp" />
+    <TextView
+        android:id="@+id/jam_selesai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jam_mulai"
+        android:text="tes"
+        android:textSize="12dp" />
+</RelativeLayout>
